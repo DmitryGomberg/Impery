@@ -158,6 +158,8 @@
       overflow: auto;
       width: 100%;
       padding-bottom: 20px;
+      margin-right: 0;
+      margin-left: 0;
    }
 
    .s2__card {
