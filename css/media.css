@@ -1,0 +1,135 @@
+@media(max-width:1217px) {
+   .header__menu-item>a {
+      letter-spacing: 0px;
+   }
+
+   .header__menu-item {
+      padding: 0 15px;
+   }
+}
+
+@media(max-width:1040px) {
+   .header__links {
+      display: none;
+   }
+}
+
+@media(max-width:940px) {
+
+   .header__bottom {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+      transition: all .3s ease;
+      transform: translateX(-100%);
+   }
+
+   .header__bottom._active {
+      transform: translateX(0);
+   }
+
+   .header__menu-list>ul {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .header__menu-item {
+      padding-left: 15px;
+      margin-bottom: 20px;
+   }
+
+   .header__menu-item:first-child {
+      padding-left: 15px;
+   }
+
+   .header__menu-item {
+      border-right: 0px solid #808bca;
+   }
+
+   .header__burger {
+      position: relative;
+      margin-left: auto;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+   }
+
+   .header__burger span {
+      height: 3px;
+      width: 100%;
+      background-color: #fff;
+      transform: rotate(45deg);
+      display: block;
+      top: 13px;
+      position: absolute;
+   }
+
+   .header__burger span:first-child {
+      height: 3px;
+      width: 100%;
+      background-color: #fff;
+      display: block;
+      transform: rotate(-45deg);
+      top: 13px;
+      left: 0;
+      position: absolute;
+   }
+
+   .header__burger-open {
+      display: block;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 30px;
+      background-color: #808bca;
+   }
+
+   .burger-menu span {
+      height: 3px;
+      display: block;
+      width: 30px;
+      background-color: #fff;
+   }
+
+   .burger-menu {
+      height: 20px;
+      width: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between
+   }
+
+   .header__top-title {
+      font-size: 20px;
+   }
+
+   .header__contacts-number {
+      font-size: 20px;
+   }
+}
+
+@media (max-width:640px) {
+   .header__top-inner {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .header__contacts {
+      margin-top: 20px;
+   }
+}
+
+@media (max-width:450px) {
+   .header__top-title {
+      font-size: 18px;
+   }
+
+   .header__contacts-number {
+      font-size: 18px;
+   }
+}

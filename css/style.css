@@ -288,6 +288,7 @@ h6 {
    margin: 0 auto;
    min-height: 100%;
    height: 100%;
+   padding: 0 20px;
 }
 
 .header__top-inner {
@@ -345,7 +346,7 @@ h6 {
    min-height: 26px;
    display: flex;
    align-items: center;
-   padding: 0 31px;
+   padding: 0 29px;
    border-right: 2px solid #808bca;
 }
 
@@ -375,4 +376,11 @@ h6 {
 
 .header__menu-item:first-child {
    padding-left: 0;
+}
+.header__menu-item:last-child {
+   border-right: none;
+   padding-right: 0;
+}
+body.lock{
+   overflow: hidden;
 }
