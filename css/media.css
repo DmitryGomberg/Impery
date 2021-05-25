@@ -143,6 +143,17 @@
    }
 }
 
+@media (max-width:640px) {
+   .header__top-inner {
+      flex-direction: column;
+      align-content: jcc;
+   }
+
+   .header__contacts {
+      margin-top: 20px;
+   }
+}
+
 @media (max-width:450px) {
    .header__top-title {
       font-size: 18px;
