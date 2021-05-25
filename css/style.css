@@ -304,7 +304,8 @@ h6 {
    font-weight: 700;
    cursor: pointer;
 }
-.header__top-title>a{
+
+.header__top-title>a {
    color: #ffffff;
 }
 
@@ -339,20 +340,39 @@ h6 {
    align-items: center;
    justify-content: flex-start;
 }
-.header__menu-item{
+
+.header__menu-item {
    min-height: 26px;
    display: flex;
    align-items: center;
    padding: 0 31px;
    border-right: 2px solid #808bca;
 }
+
 .header__menu-item>a {
    font-size: 18px;
    line-height: 1.2;
    font-weight: 400;
    color: #ffffff;
-   letter-spacing: 1px;   
+   letter-spacing: 1px;
+   position: relative;
 }
-.header__menu-item:first-child{
+
+.header__menu-item>a:after {
+   position: absolute;
+   width: 100%;
+   height: 2px;
+   background-color: #fff;
+   bottom: -7px;
+   opacity: 0;
+   right: 50%;
+   transform: translateX(50%);
+   content: '';
+   transition: all .3s ease;
+}
+
+.header__menu-item>a:hover::after {opacity: 1;bottom: -3px;}
+
+.header__menu-item:first-child {
    padding-left: 0;
 }
