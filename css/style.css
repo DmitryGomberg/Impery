@@ -218,16 +218,14 @@ h6 {
    font-weight: inherit;
    font-size: inherit;
 }
-
-
 @font-face {
    font-family: 'Evolventa';
-   src: url('Evolventa-Bold.eot');
-   src: url('Evolventa-Bold.eot?#iefix') format('embedded-opentype'),
-      url('Evolventa-Bold.woff2') format('woff2'),
-      url('Evolventa-Bold.woff') format('woff'),
-      url('Evolventa-Bold.ttf') format('truetype'),
-      url('Evolventa-Bold.svg#Evolventa-Bold') format('svg');
+   src: url('../fonts/Evolventa-BoldOblique.eot');
+   src: url('../fonts/Evolventa-BoldOblique.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Evolventa-BoldOblique.woff2') format('woff2'),
+      url('../fonts/Evolventa-BoldOblique.woff') format('woff'),
+      url('../fonts/Evolventa-BoldOblique.ttf') format('truetype'),
+      url('../fonts/Evolventa-BoldOblique.svg#Evolventa-BoldOblique') format('svg');
    font-weight: bold;
    font-style: normal;
    font-display: swap;
@@ -235,12 +233,12 @@ h6 {
 
 @font-face {
    font-family: 'Evolventa';
-   src: url('Evolventa-BoldOblique.eot');
-   src: url('Evolventa-BoldOblique.eot?#iefix') format('embedded-opentype'),
-      url('Evolventa-BoldOblique.woff2') format('woff2'),
-      url('Evolventa-BoldOblique.woff') format('woff'),
-      url('Evolventa-BoldOblique.ttf') format('truetype'),
-      url('Evolventa-BoldOblique.svg#Evolventa-BoldOblique') format('svg');
+   src: url('../fonts/Evolventa-BoldOblique.eot');
+   src: url('../fonts/Evolventa-BoldOblique.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Evolventa-BoldOblique.woff2') format('woff2'),
+      url('../fonts/Evolventa-BoldOblique.woff') format('woff'),
+      url('../fonts/Evolventa-BoldOblique.ttf') format('truetype'),
+      url('../fonts/Evolventa-BoldOblique.svg#Evolventa-BoldOblique') format('svg');
    font-weight: bold;
    font-style: italic;
    font-display: swap;
@@ -248,12 +246,12 @@ h6 {
 
 @font-face {
    font-family: 'Evolventa';
-   src: url('Evolventa-Oblique.eot');
-   src: url('Evolventa-Oblique.eot?#iefix') format('embedded-opentype'),
-      url('Evolventa-Oblique.woff2') format('woff2'),
-      url('Evolventa-Oblique.woff') format('woff'),
-      url('Evolventa-Oblique.ttf') format('truetype'),
-      url('Evolventa-Oblique.svg#Evolventa-Oblique') format('svg');
+   src: url('../fonts/Evolventa-Oblique.eot');
+   src: url('../fonts/Evolventa-Oblique.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Evolventa-Oblique.woff2') format('woff2'),
+      url('../fonts/Evolventa-Oblique.woff') format('woff'),
+      url('../fonts/Evolventa-Oblique.ttf') format('truetype'),
+      url('../fonts/Evolventa-Oblique.svg#Evolventa-Oblique') format('svg');
    font-weight: normal;
    font-style: italic;
    font-display: swap;
@@ -261,12 +259,12 @@ h6 {
 
 @font-face {
    font-family: 'Evolventa';
-   src: url('Evolventa-Regular.eot');
-   src: url('Evolventa-Regular.eot?#iefix') format('embedded-opentype'),
-      url('Evolventa-Regular.woff2') format('woff2'),
-      url('Evolventa-Regular.woff') format('woff'),
-      url('Evolventa-Regular.ttf') format('truetype'),
-      url('Evolventa-Regular.svg#Evolventa-Regular') format('svg');
+   src: url('../fonts/Evolventa-Regular.eot');
+   src: url('../fonts/Evolventa-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Evolventa-Regular.woff2') format('woff2'),
+      url('../fonts/Evolventa-Regular.woff') format('woff'),
+      url('../fonts/Evolventa-Regular.ttf') format('truetype'),
+      url('../fonts/Evolventa-Regular.svg#Evolventa-Regular') format('svg');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
