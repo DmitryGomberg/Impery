@@ -39,7 +39,7 @@
 
 }
 
-@media(max-width:940px) {
+@media(max-width:990px) {
 
    .header__bottom {
       position: absolute;
@@ -141,6 +141,25 @@
       font-size: 55px;
       margin-bottom: 20px;
    }
+
+   .s2__title {
+      font-size: 28px;
+   }
+}
+
+@media (max-width:880px) {
+   .s2__cards-inner {
+      display: flex;
+      justify-content: space-between;
+      overflow: auto;
+      width: 100%;
+      padding-bottom: 20px;
+   }
+
+   .s2__card {
+      min-width: 270px;
+   }
+
 }
 
 @media (max-width:640px) {
@@ -150,6 +169,7 @@
       justify-content: center;
       text-align: center;
    }
+
    .header__contacts {
       margin-top: 20px;
       text-align: center;
@@ -171,6 +191,14 @@
 
    .calc__arrow {
       display: none;
+   }
+
+}
+
+@media (max-width:378px) {
+   .s2__card {
+      min-width: 230px;
+      margin: 0 10px;
    }
 
 }
