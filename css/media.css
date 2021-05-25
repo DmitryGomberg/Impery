@@ -146,11 +146,13 @@
 @media (max-width:640px) {
    .header__top-inner {
       flex-direction: column;
-      align-content: jcc;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
    }
-
    .header__contacts {
       margin-top: 20px;
+      text-align: center;
    }
 }
 
