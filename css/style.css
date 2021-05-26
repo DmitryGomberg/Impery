@@ -736,9 +736,11 @@ body.lock {
    flex-wrap: wrap;
    align-items: center;
 }
-.pseudo{
+
+.pseudo {
    position: relative;
 }
+
 .form__examples::after {
    position: absolute;
    bottom: -45px;
@@ -749,6 +751,11 @@ body.lock {
    content: '';
 }
 
+.form__examples>input {
+   width: 20px;
+   height: 20px;
+   
+}
 
 .form__examples-item>label {
    margin-left: 15px;
@@ -763,7 +770,7 @@ body.lock {
 
 .form__examples-item>input {
    width: 24px;
-   height: 24px;
+   height: 24px;border-radius: 0px;
 }
 
 .form__examples-item {

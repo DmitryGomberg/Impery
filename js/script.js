@@ -25,4 +25,9 @@ $(document).ready(function () {
          }
       }
    });
+   $(function(){
+       $('.only-one').on('click',function(){
+          $('.only-one').not(this).prop('checked',false);
+       });
+    });
 });
