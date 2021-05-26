@@ -652,3 +652,18 @@ body.lock {
 .s3__car-wrapper {
    padding-top: 34px;
 }
+
+.section-3 {
+   text-align: center;
+}
+
+.s3-title {
+   font-family: Roboto;
+   font-size: 36px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 80px;
+   margin-top: 60px;
+}

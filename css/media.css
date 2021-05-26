@@ -174,7 +174,7 @@
       margin-bottom: 20px;
    }
 
-   .s2__title {
+   .common-title {
       font-size: 28px;
    }
 
@@ -207,7 +207,8 @@
       text-align: center;
       align-items: center;
    }
-   .s3__car-info{
+
+   .s3__car-info {
       margin-left: 0;
    }
 }
@@ -241,6 +242,11 @@
       margin-top: 20px;
       text-align: center;
    }
+
+   .s3-title {
+      margin-bottom: 20px;
+      margin-top: 0;
+   }
 }
 
 @media (max-width:450px) {
@@ -260,6 +266,10 @@
       display: none;
    }
 
+   .swiper-next,
+   .swiper-prev {
+      display: none;
+   }
 }
 
 @media (max-width:378px) {
@@ -267,7 +277,8 @@
       min-width: 230px;
       margin: 0 10px;
    }
-   .swiper-container{
+
+   .swiper-container {
       padding: 0 10px;
    }
 
