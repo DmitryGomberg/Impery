@@ -44,6 +44,16 @@
    .header__links {
       display: none;
    }
+
+   .cars-logos {
+      flex-wrap: wrap;
+   }
+
+   .logos-column {
+      flex: 0 1 50%
+   }
+
+   
 }
 
 @media(max-width:1000px) {
@@ -283,6 +293,9 @@
    .form-left {
       max-width: 100%;
    }
+   .section6{
+      display: none;
+   }
 }
 
 @media (max-width:450px) {
@@ -306,7 +319,8 @@
    .swiper-prev {
       display: none;
    }
-   .send_form{
+
+   .send_form {
       width: 100%;
    }
 }
