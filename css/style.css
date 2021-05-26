@@ -1037,8 +1037,62 @@ body.lock {
    width: 72px;
    margin-right: 7px;
 }
-.cars__logo>img{
+
+.cars__logo>img {
    margin: 0 auto;
    display: block;
 }
-.cars__name {}
+
+.section7 {
+   text-align: center;
+   padding: 40px 0 100px 0;
+}
+
+.s7__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 70px;
+}
+
+.s7__text {
+   text-align: left;
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 400;
+   color: #000000;
+}
+
+.s7__video {
+   flex: 0 0 540px;
+   height: 310px;
+   margin-left: 50px;
+   position: relative;
+}
+
+.video-popup {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 4;
+}
+
+.preview-video {
+   width: 100%;
+}
+
+.play-icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 3;
+   transition: transform .2s ease;
+   cursor: pointer;
+}
+.s7__video:hover .play-icon{
+   transform: translate(-50%, -50%) scale(1.1);
+}
