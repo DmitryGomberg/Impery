@@ -31,6 +31,13 @@
    .s3__decor {
       font-size: 35px;
    }
+
+   .section4 {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      text-align: center;
+   }
 }
 
 @media(max-width:1040px) {
@@ -211,6 +218,14 @@
    .s3__car-info {
       margin-left: 0;
    }
+
+   .form__examples::after {
+      bottom: -15px;
+   }
+
+   .form__examples-item {
+      margin-bottom: 8px;
+   }
 }
 
 @media (max-width:880px) {
@@ -246,6 +261,10 @@
    .s3-title {
       margin-bottom: 20px;
       margin-top: 0;
+   }
+
+   .form__row-item {
+      max-width: 100%;
    }
 }
 

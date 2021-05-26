@@ -4,7 +4,7 @@ $(document).ready(function () {
       $('body').toggleClass('lock');
    });
    const swiper = new Swiper('.swiper-container', {
-      
+
       spaceBetween: 30,
       navigation: {
          nextEl: '.swiper-next',
@@ -17,11 +17,11 @@ $(document).ready(function () {
          },
          // when window width is >= 480px
          750: {
-            slidesPerView:2
+            slidesPerView: 2
          },
          // when window width is >= 640px
          1100: {
-            slidesPerView:3
+            slidesPerView: 3
          }
       }
    });
