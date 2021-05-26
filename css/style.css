@@ -1093,6 +1093,44 @@ body.lock {
    transition: transform .2s ease;
    cursor: pointer;
 }
-.s7__video:hover .play-icon{
+
+.s7__video:hover .play-icon {
    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.cars-examples>a>img {
+   margin: 10px 10px;
+}
+
+.cars-examples {
+   margin-left: -10px;
+   margin-right: -10px;
+   display: flex;justify-content: center;align-items: center;flex-wrap: wrap;
+}
+
+.section8 {
+   width: 100%;
+   padding: 60px 0 150px 0;
+   background-image: url('../img/s7/s7_bg.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.container {}
+
+.insta-address {
+   font-family: Roboto;
+   font-size: 24px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-bottom: 35px;
+}
+
+.insta-address>img {
+   margin-right: 20px;
 }

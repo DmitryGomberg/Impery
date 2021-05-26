@@ -332,6 +332,18 @@
    }
 }
 
+@media (max-width:600px) {
+   .cars-examples {
+      flex-wrap: nowrap;
+      overflow: auto;
+      justify-content: space-between;
+   }
+
+   .section8 {
+      padding: 60px 0 60px 0;
+   }
+}
+
 @media (max-width:450px) {
    .header__top-title {
       font-size: 18px;
@@ -361,7 +373,8 @@
    .s7__video {
       min-height: 207px;
    }
-   .section7{
+
+   .section7 {
       padding-top: 0;
    }
 }
