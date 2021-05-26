@@ -306,6 +306,9 @@
    .swiper-prev {
       display: none;
    }
+   .send_form{
+      width: 100%;
+   }
 }
 
 @media (max-width:378px) {
