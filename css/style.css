@@ -317,7 +317,13 @@ h6 {
    padding: 5px 9px
 }
 
-.header__link-img {}
+.header__link-img>img {
+   transition: all .2s ease;
+}
+
+.header__links-item:hover .header__link-img>img { 
+   position: relative;bottom: 4px;
+}
 
 .header__contacts {}
 
@@ -874,7 +880,7 @@ body.lock {
 
 .select__list .select__item {
    position: relative;
-   border-top: 1px solid rgba(224, 229, 231, 0.5);
+   border-bottom: 1px solid rgba(224, 229, 231, 0.5);
    border-left: 1px solid rgba(224, 229, 231, 0.5);
    border-right: 1px solid rgba(224, 229, 231, 0.5);
    padding: 20px 15px;
@@ -884,7 +890,7 @@ body.lock {
 }
 
 .select__list .select__item:hover {
-   background-color: rgba(224, 229, 231, 0.5);
+   background-color: rgba(224, 229, 231, 1);
 }
 
 .hide-elem {
@@ -925,9 +931,11 @@ body.lock {
    display: block;
    height: 100%;
 }
-.form-message{
+
+.form-message {
    width: 100%;
 }
+
 .form-message>textarea {
    resize: none;
    flex: 1 1 100%;
@@ -944,7 +952,8 @@ body.lock {
    flex-wrap: nowrap;
    align-items: normal;
 }
-.form__row-elem{
+
+.form__row-elem {
    text-align: left;
    margin-left: 30px;
 }
