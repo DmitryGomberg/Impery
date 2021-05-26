@@ -84,6 +84,7 @@
       width: 30px;
       height: 30px;
       cursor: pointer;
+      margin-bottom: 20px;
    }
 
    .header__burger span {
