@@ -1105,7 +1105,10 @@ body.lock {
 .cars-examples {
    margin-left: -10px;
    margin-right: -10px;
-   display: flex;justify-content: center;align-items: center;flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 
 .section8 {
@@ -1133,4 +1136,43 @@ body.lock {
 
 .insta-address>img {
    margin-right: 20px;
+}
+
+.s9__reviews-item {
+   position: relative;
+   max-width: 570px;
+   max-height: 400px;
+   width: 100%;
+   height: 100%;
+   display: block;
+   padding: 0 5px;
+}
+
+.reviews-bg {
+   max-width: 100%;
+}
+
+.play-icon {}
+
+.reviews-link {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   z-index: 3;
+}
+
+.review-small{
+   max-width: 270px;
+}
+
+.section9 {
+   width: 100%;background-color: #fff;
+   padding-top: 90px;
+   text-align: center;
+}
+.s9__reviews-inner {
+   display: flex;justify-content: space-between;align-items: center;
+   margin-top: 20px;
 }

@@ -286,6 +286,14 @@
       min-width: 270px;
    }
 
+   .s9__reviews-inner {
+      flex-direction: column;
+   }
+
+   .s9__reviews-item {
+      padding-bottom: 20px;
+      max-width: 570px;
+   }
 }
 
 @media (max-width:640px) {
