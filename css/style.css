@@ -276,7 +276,7 @@ h6 {
 }
 
 .header__top {
-   background: url('../img/header_bg.png');
+   background: url('../img/header_bg.webp');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -399,7 +399,7 @@ body.lock {
 .section1 {
    width: 100%;
    padding: 135px 0;
-   background-image: url(../img/s1/s1_bg.png);
+   background-image: url(../img/s1/s1_bg.webp);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -521,7 +521,7 @@ body.lock {
 }
 
 .s2__card {
-   background: #26327f url('../img/s2/s2__card_bg.png');
+   background: #26327f url('../img/s2/s2__card_bg.webp');
    margin: 0 15px;
    border-radius: 10px;
    padding: 83px 25px 25px 25px;
@@ -599,7 +599,7 @@ body.lock {
    max-width: 38%;
    width: 100%;
    min-height: 380px;
-   background-image: url(../img/s3/s3__decor.png);
+   background-image: url(../img/s3/s3__decor.webp);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -833,7 +833,7 @@ body.lock {
 .select__head::after {
    width: 23px;
    height: 13px;
-   background: url("../img/arrow_down.png");
+   background: url("../img/arrow_down.webp");
    position: absolute;
    right: 20px;
    bottom: 50%;
@@ -1114,7 +1114,7 @@ body.lock {
 .section8 {
    width: 100%;
    padding: 60px 0 150px 0;
-   background-image: url('../img/s7/s7_bg.png');
+   background-image: url('../img/s7/s7_bg.webp');
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
