@@ -84,7 +84,7 @@
 @media(max-width:990px) {
 
    .header__bottom {
-      position: absolute;
+      position: fixed;
       top: 0;
       width: 100%;
       overflow: auto;
