@@ -428,6 +428,15 @@
    .section7 {
       padding-top: 0;
    }
+
+   .footer__links-item {
+      padding: 5px 10px;
+   }
+
+
+   .footer__top {
+      height: 70px;
+   }
 }
 
 @media (max-width:378px) {
