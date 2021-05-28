@@ -5,9 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link
-      href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900"
-      rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900" rel="stylesheet" />
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
    <link rel="stylesheet" href="css/style.css">
@@ -17,6 +15,8 @@
 </head>
 
 <body>
+   <div class="overlay"></div>
+   <div class="preloader"></div>
    <header class="header">
       <div class="header__top">
          <div class="container">
@@ -380,7 +380,7 @@
                      </div>
                   </div>
                   <div class="form-uploader">
-                     <img  loading="lazy" src="img/photo_icon.webp" alt="">
+                     <img loading="lazy" src="img/photo_icon.webp" alt="">
                      <label for="file">Загрузите фото а/м до 5 шт.</label>
                      <input type="file" id="file" name="file" multiple accept="image/*,image/jpeg" class="hide-elem">
                   </div>
@@ -407,7 +407,7 @@
          <div class="s2__cards-inner">
             <div class="s2__card s5__card">
                <div class="s2__card-image">
-                  <img loading="lazy"  src="img/s5/s5_icon2.webp" alt="">
+                  <img loading="lazy" src="img/s5/s5_icon2.webp" alt="">
                </div>
 
                <div class="s2__card-text">
@@ -420,7 +420,7 @@
             </div>
             <div class="s2__card s5__card">
                <div class="s2__card-image">
-                  <img  loading="lazy" src="img/s5/s5_icon1.webp" alt="">
+                  <img loading="lazy" src="img/s5/s5_icon1.webp" alt="">
                </div>
 
                <div class="s2__card-text">
@@ -433,7 +433,7 @@
             </div>
             <div class="s2__card s5__card">
                <div class="s2__card-image">
-                  <img  loading="lazy" src="img/s5/s5_icon3.webp" alt="">
+                  <img loading="lazy" src="img/s5/s5_icon3.webp" alt="">
                </div>
 
                <div class="s2__card-text">
@@ -446,7 +446,7 @@
             </div>
             <div class="s2__card s5__card">
                <div class="s2__card-image">
-                  <img  loading="lazy" src="img/s5/s5_icon4.webp" alt="">
+                  <img loading="lazy" src="img/s5/s5_icon4.webp" alt="">
                </div>
 
                <div class="s2__card-text">
@@ -468,7 +468,7 @@
             <div class="logos-column">
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/audi.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/audi.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Audi
@@ -476,7 +476,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/bmw.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/bmw.webp" alt="">
                   </div>
                   <div class="cars__name">
                      BMW
@@ -484,7 +484,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/schevrolet.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/schevrolet.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Chevrolet
@@ -492,7 +492,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/ford.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/ford.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Ford
@@ -500,7 +500,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/hynday.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/hynday.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Hyundai
@@ -510,7 +510,7 @@
             <div class="logos-column">
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/kia.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/kia.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Kia
@@ -518,7 +518,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/land-rover.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/land-rover.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Land Rover
@@ -526,7 +526,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/lexus.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/lexus.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Lexus
@@ -534,7 +534,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/mazda.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/mazda.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Mazda
@@ -542,7 +542,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/mercedes.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/mercedes.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Mercedes-Benz
@@ -552,7 +552,7 @@
             <div class="logos-column">
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/audi.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/audi.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Audi
@@ -560,7 +560,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/bmw.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/bmw.webp" alt="">
                   </div>
                   <div class="cars__name">
                      BMW
@@ -568,7 +568,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/schevrolet.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/schevrolet.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Chevrolet
@@ -576,7 +576,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/ford.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/ford.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Ford
@@ -584,7 +584,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/hynday.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/hynday.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Hyundai
@@ -594,7 +594,7 @@
             <div class="logos-column">
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/kia.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/kia.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Kia
@@ -602,7 +602,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img  loading="lazy" src="img/cars-logos/land-rover.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/land-rover.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Land Rover
@@ -610,7 +610,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/lexus.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/lexus.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Lexus
@@ -618,7 +618,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/mazda.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/mazda.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Mazda
@@ -626,7 +626,7 @@
                </div>
                <div class="logo__item">
                   <div class="cars__logo">
-                     <img loading="lazy"  src="img/cars-logos/mercedes.webp" alt="">
+                     <img loading="lazy" src="img/cars-logos/mercedes.webp" alt="">
                   </div>
                   <div class="cars__name">
                      Mercedes-Benz
@@ -655,8 +655,8 @@
             </div>
             <div class="s7__video">
                <a data-fancybox href="https://www.youtube.com/watch?v=gz3voh-GUNU" class="video-popup">
-                  <img  loading="lazy" src="img/video_preview.webp" alt="" class="preview-video">
-                  <img  loading="lazy" src="img/play.webp" alt="" class="play-icon">
+                  <img loading="lazy" src="img/video_preview.webp" alt="" class="preview-video">
+                  <img loading="lazy" src="img/play.webp" alt="" class="play-icon">
                </a>
 
             </div>
@@ -666,32 +666,32 @@
    <section class="section8">
       <div class="container">
          <div class="insta-address">
-            <img loading="lazy"  src="img/icon_insta.webp" alt=""> avtoskupk
+            <img loading="lazy" src="img/icon_insta.webp" alt=""> avtoskupk
          </div>
          <div class="cars-examples">
             <a href="img/s7/s7_car1.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car1.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car1.webp" alt="" />
             </a>
             <a href="img/s7/s7_car2.webp" data-fancybox="images" data-caption="My caption">
-               <img loading="lazy"  src="img/s7/s7_car2.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car2.webp" alt="" />
             </a>
             <a href="img/s7/s7_car3.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car3.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car3.webp" alt="" />
             </a>
             <a href="img/s7/s7_car4.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car4.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car4.webp" alt="" />
             </a>
             <a href="img/s7/s7_car1.webp" data-fancybox="images" data-caption="My caption">
                <img loading="lazy" src="img/s7/s7_car1.webp" alt="" />
             </a>
             <a href="img/s7/s7_car2.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car2.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car2.webp" alt="" />
             </a>
             <a href="img/s7/s7_car3.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car3.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car3.webp" alt="" />
             </a>
             <a href="img/s7/s7_car4.webp" data-fancybox="images" data-caption="My caption">
-               <img  loading="lazy" src="img/s7/s7_car4.webp" alt="" />
+               <img loading="lazy" src="img/s7/s7_car4.webp" alt="" />
             </a>
          </div>
       </div>
@@ -701,19 +701,19 @@
          <div class="s2__title common-title">отзывы наших клиентов</div>
          <div class="s9__reviews-inner">
             <div class="s9__reviews-item review-small">
-               <img  loading="lazy" src="img/reviews_video.webp" alt="" class="reviews-bg">
+               <img loading="lazy" src="img/reviews_video.webp" alt="" class="reviews-bg">
                <!--Video Preview -->
-               <img loading="lazy"  src="img/play.webp" alt="" class="play-icon">
+               <img loading="lazy" src="img/play.webp" alt="" class="play-icon">
                <a data-fancybox data-width="640" data-height="360" href="reviews/review1.mp4" class="reviews-link"></a>
             </div>
             <div class="s9__reviews-item">
-               <img  loading="lazy" src="img/reviews_video.webp" alt="" class="reviews-bg">
+               <img loading="lazy" src="img/reviews_video.webp" alt="" class="reviews-bg">
                <!--Video Preview -->
                <img loading="lazy" src="img/play.webp" alt="" class="play-icon">
                <a data-fancybox data-width="640" data-height="360" href="reviews/review2.mp4" class="reviews-link"></a>
             </div>
             <div class="s9__reviews-item review-small">
-               <img loading="lazy"  src="img/reviews_video.webp" alt="" class="reviews-bg">
+               <img loading="lazy" src="img/reviews_video.webp" alt="" class="reviews-bg">
                <!--Video Preview -->
                <img loading="lazy" src="img/play.webp" alt="" class="play-icon">
                <a data-fancybox data-width="640" data-height="360" href="reviews/review3.mp4" class="reviews-link"></a>
@@ -788,37 +788,37 @@
          <div class="footer__links">
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img loading="lazy"  src="img/head-icons/head_icon1.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon1.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img loading="lazy"  src="img/head-icons/head_icon2.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon2.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img  loading="lazy" src="img/head-icons/head_icon3.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon3.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img loading="lazy"  src="img/head-icons/head_icon4.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon4.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img  loading="lazy" src="img/head-icons/head_icon5.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon5.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img loading="lazy"  src="img/head-icons/head_icon6.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon6.webp" alt="">
                </a>
             </div>
             <div class="header__links-item footer__links-item">
                <a href="" class="header__link-img">
-                  <img  loading="lazy" src="img/head-icons/head_icon7.webp" alt="">
+                  <img loading="lazy" src="img/head-icons/head_icon7.webp" alt="">
                </a>
             </div>
          </div>
@@ -832,6 +832,7 @@
          </div>
       </div>
    </footer>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
