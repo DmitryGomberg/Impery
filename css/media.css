@@ -47,6 +47,16 @@
       width: 200px;
    }
 
+   @media(max-width:1100px) {
+      .tabs {
+         flex-direction: column;
+      }
+      .tab{
+         margin-right: 0;
+         margin-bottom: 20px;
+      }
+   }
+
    @media(max-width:1040px) {
       .header__links {
          display: none;
@@ -348,9 +358,15 @@
       .s7__wrapper {
          margin-top: 0px;
       }
+
       .s7 {
-  margin-top: 80px;
-}
+         margin-top: 80px;
+      }
+
+      .s2__card-num {
+         top: 5px;
+         right: 5px;
+      }
    }
 
    @media (max-width:640px) {

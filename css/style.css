@@ -534,7 +534,7 @@ body.lock {
    align-items: center;
    background-position: center;
    background-repeat: no-repeat;
-
+   position: relative;
 }
 
 .s2__card-image {
@@ -551,6 +551,7 @@ body.lock {
    line-height: 1.2;
    font-weight: 400;
    color: #ffffff;
+   text-align: center;
 }
 
 .swiper-wrapper {
@@ -1500,15 +1501,110 @@ body.lock {
    padding-right: 20px;
    position: relative;
 }
-.form-more.active{
+
+.form-more.active {
    display: none;
 }
-.form-more::after{
+
+.form-more::after {
    position: absolute;
    right: 0px;
    top: 1px;
    content: url(../img/arrow_form.png);
 }
-.bbn{
+
+.bbn {
    padding-bottom: none;
+}
+
+.steps {
+   width: 100%;
+}
+
+.container {}
+
+.tabs-wrapper {}
+
+.tabs {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.tab {
+   margin-right: 30px;
+   width: 100%;
+   color: #26327f;
+   border-bottom: 3px solid #26327f;
+   padding-bottom: 13px;
+   font-family: Roboto;
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: #26327f;
+   cursor: pointer;
+   position: relative;
+}
+
+.tab.active {
+   border-bottom: 3px solid #ff0000;
+   color: #ff0000;
+}
+
+.tab::after {
+   content: '';
+   width: 20px;
+   height: 20px;
+   background-color: #ffffff;
+   border: 2px solid #26327f;
+   bottom: 20px;
+   right: 0;
+   display: block;
+   position: absolute;
+   border-radius: 50%;
+}
+
+.tab.active::after {
+   border: 2px solid #ff0000;
+}
+
+.tab.active::before {
+   content: '';
+   width: 6px;
+   height: 6px;
+   background-color: #ff0000;
+   bottom: 27px;
+   right: 7px;
+   display: block;
+   position: absolute;
+   border-radius: 50%;
+   z-index: 2;
+}
+
+.tab:last-child {
+   margin-right: 0px;
+}
+
+.tabs-content {
+   padding-top: 50px;
+}
+
+.tab-item {}
+
+.s2__card-num {
+   position: absolute;
+   width: 54px;
+   height: 54px;
+   background-color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid #26327f;
+   font-size: 24px;
+   font-family: Roboto;
+   line-height: 24px;
+   font-weight: 700;
+   color: #26327f;
+   top: -23px;
+   border-radius: 50%;
 }

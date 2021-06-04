@@ -60,12 +60,20 @@ $(document).ready(function () {
    });
    $('.preloader, .overlay').fadeOut();
 
-   $('.menu-item-has-children').click(function(e) {
-        $('.sub-menu').toggleClass('visible');
-        $('.buring-prev').toggleClass('arrow-anim');
-        e.preventDefault();
-    });
-    $('.form-more').click(function(e) {
-        $('.form__hidden, .form-more').toggleClass('active');
-    });
+   $('.menu-item-has-children').click(function (e) {
+      $('.sub-menu').toggleClass('visible');
+      $('.buring-prev').toggleClass('arrow-anim');
+      e.preventDefault();
+   });
+   $('.form-more').click(function (e) {
+      $('.form__hidden, .form-more').toggleClass('active');
+   });
+   $('.tabs-wrapper').each(function () {
+      let ths = $(this);
+      ths.find('.tab-item').not(':first').hide();
+      ths.find('.tab').click(function () {
+         ths.find('.tab').removeClass('active').eq($(this).index()).addClass('active');
+         ths.find('.tab-item').hide().eq($(this).index()).fadeIn()
+      }).eq(0).addClass('active');
+   });
 });
