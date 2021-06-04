@@ -344,6 +344,13 @@
       .section10 {
          padding-top: 40px;
       }
+
+      .s7__wrapper {
+         margin-top: 0px;
+      }
+      .s7 {
+  margin-top: 80px;
+}
    }
 
    @media (max-width:640px) {
