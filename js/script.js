@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   
+
 
    $('.burger-menu, .header__burger').click(function (event) {
       $('.header__bottom').toggleClass('_active');
@@ -59,4 +59,10 @@ $(document).ready(function () {
       }
    });
    $('.preloader, .overlay').fadeOut();
+
+   $('.menu-item-has-children').click(function(e) {
+        $('.sub-menu').toggleClass('visible');
+        $('.menu-item-has-children').toggleClass('arrow-anim');
+        e.preventDefault();
+    });
 });
