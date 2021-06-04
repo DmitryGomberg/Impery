@@ -1404,7 +1404,7 @@ body.lock {
 }
 
 .menu-item-has-children {
-   display: inline-block;
+   display: inline-block !important;
 }
 
 .menu-item-arrow {
@@ -1420,8 +1420,6 @@ body.lock {
    transition: all .2s ease;
 }
 
-.sub-menu {}
-
 .buying__menu-item {
    font-family: Roboto;
    font-size: 18px;
@@ -1429,6 +1427,8 @@ body.lock {
    font-weight: 500;
    color: #515a98;
    padding: 5px 0;
+   z-index: 3;
+   position: relative;
    display: block;
 }
 
@@ -1448,10 +1448,12 @@ body.lock {
 .crumb-active {
    color: red;
 }
-.s7{
+
+.s7 {
    text-align: center;
    margin-top: 130px;
 }
+
 .s7__wrapper {
    display: flex;
    justify-content: center;
@@ -1474,4 +1476,39 @@ body.lock {
    text-transform: uppercase;
    color: #000000;
    margin-top: 25px;
+}
+
+.form__hidden {
+   display: none;
+}
+
+.form__hidden.active {
+   display: block;
+}
+
+.form-more {
+   text-align: center;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 400;
+   color: #26327f;
+   cursor: pointer;
+   margin-top: 30px;
+   border-bottom: 1px dashed #26327f;
+   display: inline-block;
+   padding-bottom: 3px;
+   padding-right: 20px;
+   position: relative;
+}
+.form-more.active{
+   display: none;
+}
+.form-more::after{
+   position: absolute;
+   right: 0px;
+   top: 1px;
+   content: url(../img/arrow_form.png);
+}
+.bbn{
+   padding-bottom: none;
 }

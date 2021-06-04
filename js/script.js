@@ -62,7 +62,10 @@ $(document).ready(function () {
 
    $('.menu-item-has-children').click(function(e) {
         $('.sub-menu').toggleClass('visible');
-        $('.menu-item-has-children').toggleClass('arrow-anim');
+        $('.buring-prev').toggleClass('arrow-anim');
         e.preventDefault();
+    });
+    $('.form-more').click(function(e) {
+        $('.form__hidden, .form-more').toggleClass('active');
     });
 });
