@@ -1366,6 +1366,7 @@ body.lock {
 .buying-main {
    flex: 0 1 560px;
    position: relative;
+   margin-right: 30px;
 }
 
 .buying-main::after {
