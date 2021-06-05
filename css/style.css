@@ -1342,6 +1342,7 @@ body.lock {
    padding-left: 20px;
    position: absolute;
    transition: opacity .2s ease;
+   display: flex;flex-direction: column;align-items: flex-start;
 }
 
 #menu-featured-categories ul.visible {
@@ -1350,9 +1351,6 @@ body.lock {
    position: relative;
 }
 
-.arrow-anim .menu-item-arrow::after {
-   transform: translateY(-50%);
-}
 
 .s2 {
    width: 100%;
@@ -1423,6 +1421,7 @@ body.lock {
 
 .buying__menu-item {
    font-family: Roboto;
+   cursor: pointer;
    font-size: 18px;
    line-height: 1.2;
    font-weight: 500;

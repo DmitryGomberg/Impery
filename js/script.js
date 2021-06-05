@@ -60,9 +60,29 @@ $(document).ready(function () {
    });
    $('.preloader, .overlay').fadeOut();
 
-   $('.menu-item-has-children').click(function (e) {
-      $('.sub-menu').toggleClass('visible');
-      $('.buring-prev').toggleClass('arrow-anim');
+   $('.menu-item-has-children1').click(function (e) {
+      $('.menu-item-has-children1').next().toggleClass('visible');
+      $('.buring-prev1').toggleClass('arrow-anim');
+      e.preventDefault();
+   });
+    $('.menu-item-has-children2').click(function (e) {
+      $('.menu-item-has-children2').next().toggleClass('visible');
+      $('.buring-prev2').toggleClass('arrow-anim');
+      e.preventDefault();
+   });
+     $('.menu-item-has-children3').click(function (e) {
+      $('.menu-item-has-children3').next().toggleClass('visible');
+      $('.buring-prev3').toggleClass('arrow-anim');
+      e.preventDefault();
+   });
+      $('.menu-item-has-children4').click(function (e) {
+      $('.menu-item-has-children4').next().toggleClass('visible');
+      $('.buring-prev4').toggleClass('arrow-anim');
+      e.preventDefault();
+   });
+       $('.menu-item-has-children5').click(function (e) {
+      $('.menu-item-has-children5').next().toggleClass('visible');
+      $('.buring-prev5').toggleClass('arrow-anim');
       e.preventDefault();
    });
    $('.form-more').click(function (e) {
