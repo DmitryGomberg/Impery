@@ -284,6 +284,7 @@ h6 {
 
 .container {
    max-width: 1215px;
+   width: 100%;
    margin: 0 auto;
    min-height: 100%;
    height: 100%;
@@ -1342,7 +1343,9 @@ body.lock {
    padding-left: 20px;
    position: absolute;
    transition: opacity .2s ease;
-   display: flex;flex-direction: column;align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
 }
 
 #menu-featured-categories ul.visible {
@@ -1607,3 +1610,72 @@ body.lock {
    top: -23px;
    border-radius: 50%;
 }
+
+.dropdown-active a {
+   text-decoration: underline;
+   color: #ff0000;
+}
+
+.s12 {
+   width: 100%;
+   padding: 50px 0 40px 0;
+   background-image: url(../img/s12_bg.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 600px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 65px;
+}
+
+.s12-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.s12-main {
+   flex: 0 1 50%;
+   text-align: center;
+}
+
+.s12-title {
+   font-family: Roboto;
+   font-size: 38px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+}
+
+.s12-subtitle {
+   background-color: #ff0000;
+   padding: 13px 25px;
+   border-radius: 25px;
+   font-family: Roboto;
+   font-size: 24px;
+   line-height: 24px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+   margin-top: 40px;margin-bottom: 70px;
+}
+
+.s12-text {
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 500;
+   color: #ffffff;
+}
+
+
+.s12-button {}
+
+.send_form {}
+
+.s12-form {}
