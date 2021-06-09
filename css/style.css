@@ -1629,6 +1629,7 @@ body.lock {
    justify-content: center;
    align-items: center;
    margin-top: 65px;
+
 }
 
 .s12-inner {
@@ -1636,6 +1637,7 @@ body.lock {
    justify-content: space-between;
    align-items: center;
    height: 100%;
+   position: relative;
 }
 
 .s12-main {
@@ -1662,7 +1664,8 @@ body.lock {
    font-weight: 700;
    text-transform: uppercase;
    color: #ffffff;
-   margin-top: 40px;margin-bottom: 70px;
+   margin-top: 40px;
+   margin-bottom: 70px;
 }
 
 .s12-text {
@@ -1674,8 +1677,147 @@ body.lock {
 }
 
 
-.s12-button {}
+.s12-form {
+   max-width: 470px;
+   background-color: #1c2770;
+   border: 4px solid #ffffff;
+   border-radius: 5px;
+   padding: 30px 40px 40px 40px;
+   text-align: center;
+   position: absolute;
+   right: 0;
+   bottom: -174px;
+}
 
-.send_form {}
+.s12-form-inner {
+   max-width: 270px;
+   width: 100%;
+   margin: 0 auto;
+}
 
-.s12-form {}
+.s12__form-title {
+   font-family: Roboto;
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+   margin-bottom: 25px;
+}
+
+.s12__form-text {
+   font-family: Roboto;
+   font-size: 20px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: #ffffff;
+   text-align: left;
+   margin-bottom: 13px;
+
+}
+
+
+.s12__form-text input {
+   margin-top: 5px;
+   width: 100%;
+   height: 70px;
+   background-color: #eeeeee;
+   border-radius: 5px;
+   border: 1px solid #dbdbdb;
+   padding: 0 20px;
+}
+
+.s12-form-inner label {
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 1.2;
+   font-weight: 400;
+   color: #ffffff;
+
+}
+
+.s12-form-inner label>input {
+   margin-top: 15px;
+   margin-bottom: 8px;
+}
+
+
+
+
+.s12-form-inner label {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.check-box {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);
+}
+
+.check-box+span {
+   padding-top: 15px;
+}
+
+.check-box:checked+span>.checkbox-style {
+   background-image: url(../img/checkbox_el.png);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.checkbox-style {
+   width: 20px;
+   height: 20px;
+   background-color: rgba(255, 255, 255, 0.0);
+   border: 2px solid #ffffff;
+   display: block;
+   margin: 0 auto;
+   border-radius: 5px;
+   margin-bottom: 7px;
+}
+
+.s13 {
+   width: 100%;
+   padding: 180px 0 0px 0;
+}
+
+.s13>.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.s13__part {
+   flex: 0 1 49%;
+}
+
+.s13__part-title {
+   font-family: Roboto;
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: #000000;
+   padding-bottom: 6px;
+   border-bottom: 3px solid red;
+   min-height: 81px;
+   margin-bottom: 50px;
+}
+
+.s13__part-names {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.s13__part-side {
+   flex: 0 1 47%;
+   text-align: left;
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 400;
+   color: #33419f;
+}
